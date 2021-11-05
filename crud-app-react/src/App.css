@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  background-color: #a4cffb!important;
+  font-family: Arial, Helvetica, sans-serif!important;
+}
+.navbar-wrapper a {
+  text-decoration: none;
+  color: #a4cffb;
+}
+.navbar-brand{
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.form-field {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  padding: 10px 10px;
+  border-bottom: 1px solid #929fba;
+}
+.form-title {
+  font-size: 1.5rem;
+}
+.form-button{
+  text-transform: uppercase;
+  width: 100%;
+  padding: 17px 10px!important;
+  color: #fff!important;
+  background-color: #5887c5!important;
+  border-color: #5887c5!important;
+  border-radius: 10px!important;
+  margin-top: 20px;
+}
+.form-wrapper {
+  padding: 20px 30px;
+  background: white;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.form-error{
+  padding: 10px;
+  background: #fbcca447;
+}
+.navbar-wrapper a{
+  padding-left: 30px;
+}
+.delete-button {
+  background-color: lightcoral!important;
+  border-color : lightcoral;
+  color : white;
+  padding : .375rem .75rem!important;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+.create{
+  margin-top: 0px!important;
+}
+.small-text {
+  text-align: left;
+  margin-top: 10px;
+  font-size: small;
+}
+.small-text  a {
+  text-decoration: none;
+}
+.google-recaptcha > div > div{
+  width : 100%!important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
